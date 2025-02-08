@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+  list-style: none;
+}
+ 
+.Banner_principal{
+  height: 100px;
+  background-color: #ff9800 ;
+  padding-top: 30px;
+
+}
+.banner {
+  text-align: center;
+  color: #ffffff;
+  
+}
+.Menu_principal > ul {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+  background-color:black;
+  color: #ffffff;
+}
+li  a{
+  color: #ffffff;
+}
+a:hover{
+  color: #0000ff;
+}
+.conteudo_principal{
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+  margin-bottom:45px ;
+}
+.locais_viagens{
+  display: flex;
+  gap: 30px;
+}
+.viagens {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 350px;
+  padding-top: px; 
+  border: solid 1px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  margin-left: 45px;
+  background-color: #ffffff88 ;
+}
+.viagens > h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.viagens > p{
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  margin-left:auto ;
+  margin-right: auto;
+}
+
+.viagens > img {
+  height: 150px;
+  width: 300px;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+.viagens-container {
+  display: flex;
+  justify-content: space-between;
+ 
+}
+aside{
+  margin-left: 30px;
+  background-color: #f4f4f4;
+}
+.lateral_aside{
+margin-left: 30px;
+margin-top: 20px;
+}
+main{
+  display: flex;    
+}
+footer{
+  background-color:#333333;
+  color: #ffffff;
+  text-align: center;
+  height: 100px;
+}
+
+footer > p{
+  padding-top: 30px;
+  font-size: 20px;
+}
+ 
