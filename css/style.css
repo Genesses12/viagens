@@ -54,16 +54,20 @@ a:hover{
   margin-left: 45px;
   background-color: #ffffff88 ;
 }
-.viagens > h2 {
+.conteudo_principal > h2 {
   margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+.conteudo_principal > p {
+  margin-left: 15px;
   margin-bottom: 15px;
 }
 .viagens > p{
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
-  margin-left:auto ;
-  margin-right: auto;
+ 
 }
 
 .viagens > img {
