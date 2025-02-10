@@ -55,8 +55,15 @@
   }
 
   footer {
-    width: 100%;
-   flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 40px;
+   
+  }
+  footer > p{
+     padding-bottom: 30px;
+ 
   }
 }
 @media (min-width: 600px) and (max-width: 1024px) {

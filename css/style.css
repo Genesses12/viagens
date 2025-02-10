@@ -1,58 +1,56 @@
-*{
+* {
   margin: 0;
   padding: 0;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   text-decoration: none;
   list-style: none;
 }
- 
-.Banner_principal{
-  height: 100px;
-  background-color: #ff9800 ;
-  padding-top: 30px;
 
+.Banner_principal {
+  height: 100px;
+  background-color: #ff9800;
+  padding-top: 30px;
 }
 .banner {
   text-align: center;
   color: #ffffff;
-  
 }
 .Menu_principal > ul {
   display: flex;
-  height: 100px;
+  height: 50px;
   align-items: center;
   gap: 15px;
   justify-content: center;
-  background-color:black;
+  background-color: #333333;
   color: #ffffff;
 }
-li  a{
+li a {
   color: #ffffff;
 }
-a:hover{
+a:hover {
   color: #0000ff;
 }
-.conteudo_principal{
+.conteudo_principal {
   display: flex;
   flex-direction: column;
   margin-top: 45px;
-  margin-bottom:45px ;
+  margin-bottom: 45px;
 }
-.locais_viagens{
+.locais_viagens {
   display: flex;
-  gap: 30px;
+  gap: 1px;
+  margin: 0;
+  padding: 0;
 }
 .viagens {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 350px;
-  padding-top: px; 
+  padding-top: 5px;
   border: solid 1px;
   border-radius: 8px;
-  margin-bottom: 30px;
   margin-left: 45px;
-  background-color: #ffffff88 ;
+  background-color: #ffffff88;
 }
 .conteudo_principal > h2 {
   margin-top: 15px;
@@ -63,45 +61,48 @@ a:hover{
   margin-left: 15px;
   margin-bottom: 15px;
 }
-.viagens > p{
-  font-size: 16px;
+.locais_viagens{
+  height: auto;
+  width: auto;
+}
+.viagens > h3 {
+  margin-top: 10px;
+}
+.viagens > p {
+  font-size: 15px;
   line-height: 1.6;
   text-align: center;
- 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 320px;
 }
 
 .viagens > img {
-  height: 150px;
+  height: 200px;
   width: 300px;
   border-radius: 8px;
   margin-top: 30px;
 }
 
-.viagens-container {
-  display: flex;
-  justify-content: space-between;
- 
-}
-aside{
+aside {
   margin-left: 30px;
   background-color: #f4f4f4;
 }
-.lateral_aside{
-margin-left: 30px;
-margin-top: 20px;
+.lateral_aside {
+  margin-left: 30px;
+  margin-top: 20px;
 }
-main{
-  display: flex;    
+main {
+  display: flex;
 }
-footer{
-  background-color:#333333;
+footer {
+  background-color: #333333;
   color: #ffffff;
   text-align: center;
   height: 100px;
 }
 
-footer > p{
-  padding-top: 30px;
+footer > p {
   font-size: 20px;
+  padding: 35px;
 }
- 
